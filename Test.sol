@@ -4,12 +4,6 @@
 
 // File: contracts/interfaces/IPancakePair.sol
 
-pragma solidity >=0.5.0;
-
-interface IPancakePair {
-    event Approval(address indexed owner, address indexed spender, uint value);
-    event Transfer(address indexed from, address indexed to, uint value);
-
     function name() external pure returns (string memory);
     function symbol() external pure returns (string memory);
     function decimals() external pure returns (uint8);
